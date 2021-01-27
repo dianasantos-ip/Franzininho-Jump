@@ -57,7 +57,7 @@ function createCactus() {
             //game over
 
             clearInterval(leftInterval);
-            document.body.innerHTML = '<h1 class="game-over">Fim de jogo!</h1> <br> <h2>Sua pontuação foi: ' + count + '</h2>'
+            document.body.innerHTML = '<h1 class="game-over">Fim de jogo!</h1> <br> <h2 class="score">Sua pontuação foi: ' + count + '</h2> <br> <a href="index.html"><button class="button">Jogue novamente!</button></a>'
         } else {
             cactusPosition -= 10;
             cactus.style.left = cactusPosition + 'px';    
