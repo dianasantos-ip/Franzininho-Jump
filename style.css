@@ -3,19 +3,19 @@ body {
 }
 
 .dino {
-    width: 60px;
-    height: 60px;
-    background-image: url(dino.gif);
+    width: 150px;
+    height: 150px;
+    background-image: url(franzininho.png);
     position: absolute;
     bottom: 0;
 }
 
 .cactus{
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     bottom: 0;
-    background-image: url(cactus.png);
+    background-image: url(ferro-de-solda.png);
 }
 
 .game-over {
@@ -37,7 +37,7 @@ body {
 .background {
     position: absolute;
     bottom: 0;
-    background-image: url(background.png);
+    background-image: url(background2.png);
     background-repeat: repeat-x;
     animation: slideright 800s infinite linear;
     width: 100%;
